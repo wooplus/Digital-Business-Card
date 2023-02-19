@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #23252c;
+  color: #fff;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18.2px;
+  margin-top: 8px;
+}
+
+.card-container {
+  width: 60%;
+  background-color: #1a1b21;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+.info-container {
+  text-align: center;
+}
+
+.person-img {
+  width: 100%;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-email {
+  background-color: #d1d5db;
+  color: #374151;
+}
+
+.btn-linkedin {
+  background-color: #5093e2;
+  color: #fff;
+}
+
+.btn > i {
+  margin-right: 5px;
+}
+
+.info-name {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.info-job {
+  margin-top: 5px;
+  color: #f3bf99;
+}
+
+.info-website {
+  margin: 10px 0;
+}
+
+.about-container,
+.interest-container {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 500px;
+}
+
+.interest-container {
+  margin-bottom: 30px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #161619;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.icon-container {
+  background-color: #918e9b;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.icon-container > i {
+  font-size: 30px;
+  color: #161619;
+}
